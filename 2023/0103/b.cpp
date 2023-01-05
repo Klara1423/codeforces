@@ -24,10 +24,12 @@ int main()
         //     cout << "1 -2 1 -2 1" << endl;
         // else 
         //     cout << "NO" << endl;
+
         else if (n == 3) 
             cout << "NO" << endl;
         else 
             {
+                cout << "YES" << endl;
                 int a = n / 2 - 1, b = -a - 1;
                 for(int i = 0 ; i < n / 2; i++)
                 {
